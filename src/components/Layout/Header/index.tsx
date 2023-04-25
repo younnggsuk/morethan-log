@@ -16,8 +16,8 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
       >
         <Logo />
         <div className={`flex gap-3 items-center `}>
+          {/* <NavBar /> */}
           <ThemeToggle />
-          <NavBar />
         </div>
       </div>
     </div>
