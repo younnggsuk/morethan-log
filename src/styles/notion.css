@@ -2,7 +2,7 @@
 
 .notion {
   font-family: Pretendard, Roboto, sans-serif;
-  @apply text-gray-600 dark:text-gray-300;
+  @apply text-gray-700 dark:text-gray-300;
   overflow-wrap: break-word;
 }
 .notion,
@@ -13,7 +13,10 @@
   @apply p-0;
   @apply my-1;
 }
-
+.notion-asset-wrapper-image img {
+  @apply border;
+  @apply border-gray-300 dark:border-gray-600;
+}
 .notion-toggle {
   @apply w-full;
 }
@@ -35,8 +38,8 @@ svg + .notion-page-title-text {
 
 .notion-bookmark {
   @apply border;
-  @apply border-gray-100;
-  color: inherit;
+  @apply border-gray-300;
+  @apply bg-gray-50;
 }
 
 .notion-bookmark .notion-bookmark-title,
@@ -75,7 +78,12 @@ pre[class*="language-"] {
   @apply overflow-auto;
 }
 .notion-quote {
-  padding: 0.2em 0.9em;
+  padding: 0.5em 0.9em;
+  font-size: 1.0em;
+}
+.notion-callout {
+  padding: 0.9em 0.9em;
+  font-size: 1.0em;
 }
 .notion-collection {
   @apply max-w-full;
@@ -83,6 +91,12 @@ pre[class*="language-"] {
 .notion-collection > .notion-collection-header {
   @apply px-0 !important;
 }
+.notion-h {
+  @apply font-bold;
+  @apply bg-transparent;
+}
+
+
 .notion-collection > .notion-table {
   @apply max-w-full !important;
 }
