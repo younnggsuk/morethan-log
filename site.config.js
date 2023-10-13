@@ -3,12 +3,11 @@ const CONFIG = {
   profile: {
     name: "Youngsuk Lee",
     image: "/profile.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Computer Vision Researcher",
-    bio: "I'm interested in computer vision, machine learning, and deep learning.",
+    role: "Applied AI Researcher | Computer Vision",
+    bio: "I’m focusing on enabling vision models to adapt to or generalize unseen data more quickly.",
     email: "younnggsuk@gmail.com",
     linkedin: "younnggsuk",
     github: "younnggsuk",
-    cv: "https://younnggsuk.github.io/",
   },
   projects: [
     {
